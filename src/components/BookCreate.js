@@ -8,7 +8,7 @@ function BookCreate ({onCreate}) {
 
     const handleFormSubmit =(event) => {
         event.preventDefault();
-        onCreate('title');
+        onCreate(title);
         setTitle('');
     }
     // const handleClick =() => {
